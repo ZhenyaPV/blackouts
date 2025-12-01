@@ -29,7 +29,7 @@ body {
 
 .time-container {
     font-size: 40px;
-    padding: 40px 10px;
+    padding: 40px 170px;
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(55px);
     border-radius: 30px;
@@ -201,4 +201,5 @@ body {
 
 /* .group-selector:focus + .groups {
     background: rgba(0, 0, 0, 0.4); 
+
 } */
