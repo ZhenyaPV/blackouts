@@ -1,0 +1,17 @@
+{
+  "file": "index.html",
+  "type": "web",
+  "title": "Shutdown Schedule",
+  "description": "Графики отключений света в Николаеве",
+  "author": "Eugene",
+  "preview": "preview.jpg",
+  "tags": [],
+  "general": {
+    "properties": {},
+    "rating": "Everyone"
+  },
+  "web": {
+    "locales": [],
+    "cursor": false,
+  }
+}

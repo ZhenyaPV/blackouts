@@ -1,0 +1,55 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV FAKE</title>
+    <!-- <title>Shutdown Schedule Wallpaper</title> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <video class="bg-video" autoplay muted loop playsinline>
+        <source src="video/background.webm" type="video/webm" />
+    </video>
+
+    <div class="time-container">
+        <div class="group-selector-container">
+            <input class="group-selector group" id="group-selector" value="6.1" readonly>
+            <div class="groups mt-10 hidden-groups-animation">
+                <div class="group group-item hidden">1.1</div>
+                <div class="group group-item hidden">1.2</div>
+                <div class="group group-item hidden">2.1</div>
+                <div class="group group-item hidden">2.2</div>
+                <div class="group group-item hidden">3.1</div>
+                <div class="group group-item hidden">3.2</div>
+                <div class="group group-item">4.1</div>
+                <div class="group group-item hidden">4.2</div>
+                <div class="group group-item hidden">5.1</div>
+                <div class="group group-item hidden">5.2</div>
+                <div class="group group-item">6.1</div>
+                <div class="group group-item hidden">6.2</div>
+            </div>
+        </div>
+        <b class="time-blackout-warning hidden">Сейчас блэкаут!</b>
+        <div class="time-left text time-left-to-off hidden">До отключения света: <span id="time-left-to-off">...</span>
+        </div>
+        <div class="time-left text time-left-to-on hidden">До включения света: <span id="time-left-to-on">...</span>
+        </div>
+
+        <div class="time-schedule"></div>
+
+        <div class="refresh">
+            <div class="time-refreshed-at text">Последнее обновление: <span id="time-refreshed-at">...</span></div>
+            <div class="icon">
+                <div class="refresh-icon"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
